@@ -1,17 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # SSNdata
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SSNdata is to …
+The goal of SSNdata is to ...
 
 ## Installation
 
-You can install the development version of SSNdata from
-[GitHub](https://github.com/) with:
+You can install the development version of SSNdata from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -22,9 +33,11 @@ devtools::install_github("EdgarSantos-Fernandez/SSNdata")
 
 This is a basic example of how to use the data from the package:
 
-``` r
+```{r example}
 library(SSNdata)
 clear <- readRDS(system.file("extdata/clear_obs.RDS", package = "SSNdata"))
 
 ## basic example code
 ```
+
+

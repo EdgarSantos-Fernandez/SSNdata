@@ -10,7 +10,7 @@
 #'   \item{long}{longitude}
 #'   \item{slope}{location slope}
 #'   \item{elev}{elevation)}
-#'   \item{cumdrainag}{cumulative drainage area}
+#'   \item{h2o_area}{cumulative drainage area}
 #'   \item{air_temp}{air temperature in °C}
 #'   \item{sin}{first harmonic covariate (sine)}
 #'   \item{cos}{first harmonic covariate (cosine))}
