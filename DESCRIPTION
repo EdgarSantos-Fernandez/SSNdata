@@ -4,12 +4,10 @@ Title: Spatial stream network datasets
 Version: 0.0.1
 Author: Edgar Santos-Fernandez
 Maintainer: Edgar Santos-Fernandez <edgar.santosfdez@gmail.com>
-Description: Cleawater contains a spatial stream network object from the Clearwater River basin, USA. It consists of 18 spatial obervation and 60 prediction locations. 
+Description: This is a companion package to SSNbayes. It contains a spatial stream network object from the Clearwater River basin, USA and some water temperature datasets. It consists of 18 spatial obervation and 60 prediction locations. 
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Imports:
-    SSN
-Depends: 
-    R (>= 3.5.0)
+Imports:SSN
+Depends: R (>= 3.5.0)
 RoxygenNote: 7.2.1

@@ -1,0 +1,12 @@
+citHeader("To cite SSNdata in publications use:")
+
+citEntry( entry = "Manual",
+  title    = "SSNdata: Spatial stream network datasets",
+  author   = "Edgar Santos-Fernandez",
+  journal  = "R package",
+  year     = 2022,
+  url      = "https://github.com/EdgarSantos-Fernandez/SSNdata",
+  note = "The Comprehensive R Archive Network",
+  textVersion = "Santos-Fernandez. E. 2022. SSNdata: spatial stream network datasets. R package. https://github.com/EdgarSantos-Fernandez/SSNdata"
+)
+
