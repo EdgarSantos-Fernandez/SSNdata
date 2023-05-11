@@ -1,7 +1,7 @@
 Package: SSNdata
 Type: Package
-Title: Spatial stream network datasets
-Version: 0.0.1
+Title: Spatio-temporal stream network datasets
+Version: 0.0.2
 Author: Edgar Santos-Fernandez
 Maintainer: Edgar Santos-Fernandez <edgar.santosfdez@gmail.com>
 Description: This is a companion package to SSNbayes. It contains a spatial stream network object from the Clearwater River basin, USA and some water temperature datasets. It consists of 18 spatial obervation and 60 prediction locations. 
