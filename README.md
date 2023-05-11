@@ -29,19 +29,9 @@ This is a basic example of how to use the data from the package:
 
 ``` r
 library('lubridate')
-#> 
-#> Attaching package: 'lubridate'
-#> The following objects are masked from 'package:base':
-#> 
-#>     date, intersect, setdiff, union
 library('ggrepel')
-#> Loading required package: ggplot2
 library('RColorBrewer')
 library('SSN')
-#> Loading required package: RSQLite
-#> Loading required package: sf
-#> Linking to GEOS 3.9.3, GDAL 3.5.2, PROJ 8.2.1; sf_use_s2() is TRUE
-#> Loading required package: sp
 library('SSNbayes')
 library('SSNdata')
 ```

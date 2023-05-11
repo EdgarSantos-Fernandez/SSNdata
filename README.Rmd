@@ -35,7 +35,7 @@ devtools::install_github("EdgarSantos-Fernandez/SSNdata")
 
 This is a basic example of how to use the data from the package:
 
-```{r example}
+```{r example, warning = F, message = F}
 library('lubridate')
 library('ggrepel')
 library('RColorBrewer')
