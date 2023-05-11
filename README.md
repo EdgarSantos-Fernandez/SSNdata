@@ -64,7 +64,7 @@ clear.df$addfunccol_cat <- cut(clear.df$afvArea,
                                include.lowest = T)
 col <- 'gray'
 
-x11(); ggplot(clear.df) +
+ggplot(clear.df) +
   geom_path(aes(X1, X2, group = slot, size = addfunccol_cat), lineend = 'round', linejoin = 'round', col = col)+
   geom_point(data = dplyr::filter(clear, clear$date == ymd('2012-08-01')) ,
              aes(x = UTM_Xcoord, y = UTM_Ycoord, col = temp), size = 3)+
@@ -85,9 +85,6 @@ x11(); ggplot(clear.df) +
         legend.title=element_text(size=13),
         axis.text.x = element_text(angle = 45, hjust=1),
         strip.background =element_rect(fill='white'))
-#> Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-#> ℹ Please use `linewidth` instead.
-#> This warning is displayed once every 8 hours.
-#> Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-#> generated.
 ```
+
+![Alt Text](man/figures/README-plot-1.png)
