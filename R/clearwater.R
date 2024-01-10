@@ -7,6 +7,6 @@
 #' @export
 #' @author Edgar Santos-Fernandez
 #' @examples
-#' library('SSN')
-#' n <- importSSN("clearwater.ssn", predpts = "preds")
+#' library('SSN2')
+#' n <- SSN2::ssn_import("clearwater.ssn, predpts = "preds", overwrite  = TRUE)
 

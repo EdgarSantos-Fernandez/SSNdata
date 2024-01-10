@@ -5,8 +5,7 @@
 #' @export
 #' @description
 #' @examples
-#' library('SSN')
-#' n <- importSSN("clearwater.ssn", predpts = "preds")
-#'
+#' library('SSN2')
+#' n <- SSN2::ssn_import("clearwater.ssn, predpts = "preds", overwrite  = TRUE)
 #'
 
